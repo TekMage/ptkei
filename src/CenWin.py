@@ -466,7 +466,7 @@ class cenWin:
         def SetThresh(self, comd):
             viewer.queryCommand(
                 "New %s threshold for %s,%s ?" % ((comd,) + self.key),
-                "thresh %s %s,%s %%s" % ((comd,) + self.key),
+                "threshold %s %s,%s %%s" % ((comd,) + self.key),
                 "rdbe")
 
         def SetDel(self, comd):
